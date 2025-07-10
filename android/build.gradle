@@ -1,5 +1,5 @@
 plugins {
-    id "com.android.application"
+    id "com.android.library"
     id "kotlin-android"
 }
 
@@ -29,7 +29,6 @@ android {
     }
 
     defaultConfig {
-        applicationId "org.sigrok.flutter_libserialport"
         minSdkVersion 24
         targetSdkVersion 35
         versionCode = 1
