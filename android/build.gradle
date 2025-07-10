@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 35
     namespace "org.sigrok.flutter_libserialport"
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17

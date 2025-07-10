@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 35
     namespace "org.sigrok.flutter_libserialport_example"
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -33,10 +33,11 @@ android {
     }
 }
 
-flutter {
-    source '../..'
-}
+//flutter {
+//    source '../..'
+//}
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:2.1.0"
+    implementation 'io.flutter:flutter_embedding_debug:1.0.0'
 }
